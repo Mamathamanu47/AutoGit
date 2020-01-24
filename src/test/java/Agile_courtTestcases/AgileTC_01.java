@@ -31,7 +31,8 @@ public class AgileTC_01 extends BaseClass {
 			Assert.assertFalse(false);
 		}
 		System.out.println(bdriver.getTitle());
+		System.out.println("adding one extra loine");
 		log.info("Title pf the page captured ");
-	}
+	} 
 	
 }
