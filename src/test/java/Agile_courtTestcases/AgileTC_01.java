@@ -11,6 +11,7 @@ public class AgileTC_01 extends BaseClass {
 	public void loginTest()
 	
 	{ 
+		System.out.print("test case01");
 		setup();
 		bdriver.get("url");
 		log.info("application loaded");
